@@ -1,0 +1,188 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background-image: url("../images/bg.jpg"); }
+
+.background_container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: image("images/bg.jpg"); }
+  .background_container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.social {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 57.35098%;
+  margin-left: 44.86677%;
+  margin-top: 7px; }
+  .social:last-child {
+    margin-right: 0; }
+  .social p {
+    float: left;
+    display: block;
+    margin-right: 4.11092%;
+    width: 18.19856%;
+    padding: 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff; }
+    .social p:last-child {
+      margin-right: 0; }
+  .social a {
+    float: left;
+    display: block;
+    margin-right: 4.11092%;
+    width: 13.73667%;
+    font-size: 19px;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    margin: 0;
+    margin-left: 8px;
+    padding: 12px 12px 12px 16px; }
+    .social a:last-child {
+      margin-right: 0; }
+    .social a i {
+      opacity: .5; }
+      .social a i:hover {
+        opacity: 1; }
+    .social a.facebook {
+      background: #425693; }
+    .social a.rss {
+      background: #CB8F3C; }
+    .social a.twitter {
+      background: #6B8EC5; }
+    .social a.youtube {
+      background: #B03932;
+      margin-right: 0; }
+
+.site_nav {
+  margin-top: 15px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-left: 17.05961%; }
+  .site_nav:last-child {
+    margin-right: 0; }
+  .site_nav button {
+    width: 155px;
+    background: #AA2930;
+    height: 25px;
+    color: #fff;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 10px;
+    border: none;
+    border-bottom: 3px solid #949294;
+    border-opacity: .5; }
+    .site_nav button:hover {
+      background: #fff;
+      color: #AA2930;
+      border-bottom: 3px solid #AA2930; }
+    .site_nav button.inside {
+      margin: 0 5px 0 5px; }
+      .site_nav button.inside:nth-oftype(2) {
+        margin-right: 0px; }
+
+.splash_screen {
+  margin-top: 8px;
+  height: auto;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .splash_screen:last-child {
+    margin-right: 0; }
+
+.container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 59.82462%;
+  margin-left: 17.05961%;
+  border: 5px solid #fff;
+  background: #fff;
+  background-image: url("../images/top-image.png");
+  background-size: 100%;
+  padding: 10px; }
+  .container:last-child {
+    margin-right: 0; }
+
+.peralta {
+  width: 261px;
+  margin-top: 20px;
+  margin-left: 3px; }
+  .peralta .radios {
+    margin-top: 47px;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 10.43705%;
+    margin-left: 44.78147%; }
+    .peralta .radios:last-child {
+      margin-right: 0; }
+    .peralta .radios input {
+      margin: 0 2.5px; }
+  .peralta .article_container {
+    border-top: 3px solid black;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding: 209px;
+    padding-top: 49px; }
+    .peralta .article_container:last-child {
+      margin-right: 0; }
+  .peralta article {
+    padding: 7px;
+    background: #fff;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .peralta article:last-child {
+      margin-right: 0; }
+    .peralta article h1 {
+      font-size: 16px;
+      font-weight: normal; }
+    .peralta article .summary {
+      font-size: 10px;
+      line-height: 1.5; }
+    .peralta article .date {
+      color: #B6B6B6;
+      font-size: 12px; }
+    .peralta article.Ray {
+      margin-right: 0; }
+  .peralta .pro_bio_splash {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 60.08052%;
+    margin-left: 19.02146%;
+    border: 2px solid blue; }
+    .peralta .pro_bio_splash:last-child {
+      margin-right: 0; }
+    .peralta .pro_bio_splash .mountain_container img {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 33.46753%;
+      height: 142px; }
+      .peralta .pro_bio_splash .mountain_container img:last-child {
+        margin-right: 0; }
